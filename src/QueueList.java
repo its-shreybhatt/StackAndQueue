@@ -7,6 +7,7 @@ public class QueueList {
         myQueue.pushQueue(myFirstNode);
         myQueue.pushQueue(mySecondNode);
         myQueue.pushQueue(myThirdNode);
+        myQueue.dequeue();
 
         myQueue.printStack();
     }

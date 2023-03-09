@@ -14,9 +14,11 @@ public class MyStackList<K> {
 
     public INode pop() {
         return myLinkedList.popFirstNode();
-
     }
 
+    public INode dequeue() {
+        return myLinkedList.popFirstNode();
+    }
     public void printStack() {
         myLinkedList.printMyNodes();
     }
