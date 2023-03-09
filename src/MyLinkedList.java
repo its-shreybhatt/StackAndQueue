@@ -1,7 +1,7 @@
 public class MyLinkedList {
 // class to impliment logic
 
-    private INode head;
+    public INode head;
     private INode tail;
 
     public MyLinkedList() {

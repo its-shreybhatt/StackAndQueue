@@ -8,6 +8,11 @@ public class StackList {
         myStack.push(mySecondNode);
         myStack.push(myThirdNode);
 
+        INode topElement = myStack.peak();
+        System.out.println("Top most element = " +topElement.getKey());
+        myStack.pop();
+
         myStack.printStack();
+
     }
 }
