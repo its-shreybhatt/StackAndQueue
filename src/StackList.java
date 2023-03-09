@@ -1,4 +1,4 @@
-public class MyStack{
+public class StackList {
     public static void main(String[] args) {
         MyStackList myStack = new MyStackList();
         MyNode<Integer> myFirstNode = new MyNode<>(70);
@@ -9,6 +9,5 @@ public class MyStack{
         myStack.push(myThirdNode);
 
         myStack.printStack();
-
     }
 }
